@@ -1,0 +1,10 @@
+{
+    "editor.inlineSuggest.syntaxHighlightingEnabled": false,
+    "editor.screenReaderAnnounceInlineSuggestion": false,
+    "editor.inlineSuggest.suppressInSnippetMode": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.inlineSuggest.edits.showLongDistanceHint": false,
+    "intelliphp.inlineSuggestionsEnabled": false,
+    "editor.wordBasedSuggestions": "off",
+    "github.copilot.chat.languageContext.typescript.enabled": false
+}

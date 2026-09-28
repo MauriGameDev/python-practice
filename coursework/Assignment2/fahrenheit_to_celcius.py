@@ -6,3 +6,4 @@ celsius = (fahrenheit -32) * 5/9
 
 #Generate th eoutput using f-string to format the result 
 print(f'{fahrenheit} degrees farenheit is {celsius:.2f} degrees celcius')
+
