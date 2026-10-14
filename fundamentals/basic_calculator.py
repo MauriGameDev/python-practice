@@ -23,9 +23,9 @@ endProg = False
 
 #run while loop to get numbers
 while endProg != True:
-    num1 = int(input("Enter number: "))
-    option = int(input("Enter operations( (1)Add   (2)Subtract     (3)Multiply     (4)Divide): "))
-    num2 = int(input("Enter number: "))
+    num1 = float(input("Enter number: "))
+    option = int(input("Enter operations: (1)Add   (2)Subtract     (3)Multiply     (4)Divide: "))
+    num2 = float(input("Enter number: "))
     
     #process operations
     if option == 1:
@@ -44,7 +44,7 @@ while endProg != True:
         answer = num1 / num2
         print(f"Display: {num1} / {num2} = {answer}")
     
-    endProg = str(input("Do you want to continue or End program: (Y/N): ")).upper()
+    endProg = str(input("Do you want to End program: (Y/N): ")).upper()
     if endProg == "Y":
         endProg = True
     else:
